@@ -15,6 +15,14 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-    - uses: actions/checkout@v2
-    - name: Build
-      run: cargo build --verbose --release
+      - uses: actions/checkout@v2
+      - uses: actions/upload-artifact@v2
+      
+      - name: Build
+        run: cargo build --verbose --release
+    
+      - name: 'Upload Artifact'
+        with:
+          name: production_artifact
+          path: ./target/release/ConstantReplacer
+          retention-days: 5
