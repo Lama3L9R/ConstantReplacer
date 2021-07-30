@@ -19,8 +19,8 @@ jobs:
       - name: Build
         run: cargo build --verbose --release
     
-      - uses: actions/upload-artifact@v2
       - name: 'Upload Artifact'
+      - uses: actions/upload-artifact@v2 
         with:
           name: production_artifact
           path: ./target/release/ConstantReplacer
