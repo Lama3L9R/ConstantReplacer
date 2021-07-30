@@ -8,6 +8,7 @@ edit: 根据`Tg:@real186526`曾经对我说的: 能用就是好代码
 [![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)
 [![LICENSE](https://img.shields.io/badge/license-Anti%20996-blue.svg)](https://github.com/996icu/996.ICU/blob/master/LICENSE)
 ![RUST VERSION](https://img.shields.io/badge/Rust-2018-blue.svg)
+[![Actions](https://github.com/Lama3L9R/ConstantReplacer/actions/workflows/rust.yml/badge.svg?branch=master)](https://github.com/Lama3L9R/ConstantReplacer/actions/workflows/rust.yml)
 
 ---
 
