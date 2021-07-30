@@ -88,7 +88,7 @@ fn main() {
             }
         } else {
             if !quite_flag {
-                println!("文件夹不存在或无权访问");
+                println!("{} 不存在或无权访问", &arguments[3]);
                 exit(1);
             }
         }
