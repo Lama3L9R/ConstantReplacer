@@ -13,6 +13,10 @@ fn main() {
 
     let quite_flag = arguments.contains(&"-q".to_string());
 
+    if arguments.contains(&"-l".to_string()) {
+        arguments.iter().for_each(|arg| { println!("参数: {}", arg); });
+    }
+
     if arguments.contains(&"-v".to_string()) {
         println!("ConstantReplacer ver 1.0 作者: Lama3L9R 语言: Rust 支持库: walkdir Github: Lama3L9R/ConstantReplacer 协议: Anti-996");
         return;
